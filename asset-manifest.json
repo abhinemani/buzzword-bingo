@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/buzzword-bingo/static/js/main.2ef7c061.js",
+    "static/js/787.e708a617.chunk.js": "/buzzword-bingo/static/js/787.e708a617.chunk.js",
+    "index.html": "/buzzword-bingo/index.html",
+    "main.2ef7c061.js.map": "/buzzword-bingo/static/js/main.2ef7c061.js.map",
+    "787.e708a617.chunk.js.map": "/buzzword-bingo/static/js/787.e708a617.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.2ef7c061.js"
+  ]
+}
