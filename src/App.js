@@ -18,7 +18,7 @@ const BuzzwordBingo = styled.div`
   align-items: center;
   justify-content: center;
   color: white;
-  background-color: #282c34;
+  background-color: #281978;
 `;
 
 const Actions = styled.div`

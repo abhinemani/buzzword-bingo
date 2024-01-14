@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { FluidText } from '../FluidText';
 
 const SpaceContainer = styled.button`
-  background-color: ${(props) => (props.selected ? 'lightgreen' : 'white')};
+  background-color: ${(props) => (props.selected ? '#ff6e13' : 'white')};
   color: black;
   border: thin solid black;
   border-radius: 5px;
@@ -33,7 +33,7 @@ export const Space = ({ selected, onAction, children }) => {
 export const FreeSpace = () => {
   return (
     <FreeSpaceContainer type="button" selected={true}>
-      <FluidText>GTY <br />(Not Euna)</FluidText>
+      <FluidText>Pre-Aquisition Name(s)</FluidText>
     </FreeSpaceContainer>
   );
 };
