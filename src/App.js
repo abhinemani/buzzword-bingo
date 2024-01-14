@@ -5,35 +5,8 @@ import { Board } from './components/Board';
 import { EditBuzzwordsModal } from './components/EditBuzzwordsModal';
 
 const defaultBuzzwords = [
-  'Can you see my screen?',
-  "You're on mute.",
-  "Let's take this offline.",
-  "I'm having VPN issues.",
-  'Your audio is cutting out.',
-  'Artificial Intelligence',
-  '*Small talk*',
-  'Machine Learning',
-  "We're two minutes over.",
-  '*Awkward silence*',
-  'The Cloud',
-  "I'll give you all some time back.",
-  'Can I share my screen?',
-  'Scalable',
-  'I have to drop.',
-  '"brb" in the chat',
-  "Let's set up a working session.",
-  'Was that your cat?',
-  'It looks like everyone is here.',
-  'Are you in the office?',
-  'Let me share my screen.',
-  `Happy ${new Date().toLocaleDateString('en-US', { weekday: 'long' })}!`,
-  'Touch base',
-  '*Coffee break*',
-  'My audio cut out.',
-  '*Non-technical person deprecates themselves on their lack of technical knowledge*',
-  'I was on mute.',
-  'NoSQL',
-  'GraphQL',
+  'Digital Transformation', 'Cloud Solutions', 'Stakeholder Engagement', 'Procurement Efficiency', 'Budget Optimization', 'SaaS Integration', 'Grant Management', 'ERP Systems', 'Compliance Automation', 'Citizen-Centric Design', 'Public Sector Innovation', 'Workflow Efficiency', 'Data Analytics', 'Cybersecurity', 'User Experience', 'Agile Methodology', 'Strategic Partnerships', 'Resource Allocation', 'Operational Excellence', 'Sustainable Development', 'Transparent Governance', 'Mobile Accessibility', 'Financial Reporting', 'Capacity Building', 'Scalable Infrastructure', 'Cross-Functional Teams', 'Performance Metrics', 'Smart City Initiatives', 'Community Outreach', 'Legacy System Modernization'
+
 ];
 
 const BuzzwordBingo = styled.div`
@@ -115,13 +88,6 @@ const App = () => {
         onSubmit={onEditSubmit}
       />
       <Actions>
-        <EditButton type="button">
-          <BiPencil
-            size={'5em'}
-            color="black"
-            onClick={() => setEditModalOpened(true)}
-          />
-        </EditButton>
         <RefreshButton type="button">
           <BiRefresh
             size={'5em'}

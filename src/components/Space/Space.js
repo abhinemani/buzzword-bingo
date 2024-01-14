@@ -33,7 +33,7 @@ export const Space = ({ selected, onAction, children }) => {
 export const FreeSpace = () => {
   return (
     <FreeSpaceContainer type="button" selected={true}>
-      <FluidText>FREE</FluidText>
+      <FluidText>GTY <br />(Not Euna)</FluidText>
     </FreeSpaceContainer>
   );
 };
